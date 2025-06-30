@@ -1,0 +1,15 @@
+### GET country weather by country name
+GET http://localhost:8080/country-weather/Italy
+Accept: application/json
+
+###
+
+### PUT update additional ifno
+PUT http://localhost:8080/country-weather/Italy
+Content-Type: application/json
+
+{
+  "visited": true,
+  "notes": "Viaggio meraviglioso a Roma!",
+  "rating": 5
+}
