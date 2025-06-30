@@ -1,11 +1,14 @@
 # Country Weather Service
 
+
 Questo progetto implementa un microservizio Spring Boot che integra dati provenienti da due API pubbliche:
 
 - [REST Countries](https://restcountries.com/v3.1/name/{country})
 - [Open-Meteo](https://api.open-meteo.com/v1/forecast)
 
 Il microservizio espone due endpoint REST per restituire informazioni relative a un paese e al meteo corrente della sua capitale.
+
+Url github per la correzione(https://github.com/Urgoddo/MicroServiceEsame)
 
 ## Caratteristiche
 
@@ -22,7 +25,7 @@ Il microservizio espone due endpoint REST per restituire informazioni relative a
 
 ## Requisiti
 
-- Java 17
+- Java 21
 - Maven 3.9+
 - Docker (per esecuzione containerizzata)
 
@@ -32,4 +35,5 @@ Per compilare il progetto ed eseguire il jar:
 
 ```bash
 ./mvnw clean package
-java -jar target/*.jar# MicroServiceEsame
+java -jar target/*.jar
+
